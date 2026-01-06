@@ -5,10 +5,6 @@ theme = 'ananke'
 
 [menus]
   [[menus.main]]
-    name = 'Startseite'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
     name = 'Aktuelles'
     pageRef = '/aktuelles'
     weight = 20
