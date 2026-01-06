@@ -45,8 +45,8 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 ### Bildnachweise
 
-Die verwendeten Bilder stammen von [Lorem Flickr](https://loremflickr.com) (Creative Commons).
-*   Startseite: Community/People
-*   Über uns: Teamwork/Hands
-*   Kontakt: Writing/Desk
-*   Aktuelles: Newspaper/Reading
+Die verwendeten Bilder stammen von [Lorem Flickr](https://loremflickr.com) und [Unsplash](https://unsplash.com).
+*   Startseite: [Komal Gahir](https://unsplash.com/photos/suLtha-a2z0) (Unsplash)
+*   Über uns: Teamwork/Hands (Lorem Flickr)
+*   Kontakt: Writing/Desk (Lorem Flickr)
+*   Aktuelles: [Mathilde Langevin](https://unsplash.com/photos/xiqCrk6LvTg) (Unsplash)
