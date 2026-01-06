@@ -1,0 +1,47 @@
+{{ define "main" }}
+  <header class="ph3 ph5-ns pt3 pt5-ns">
+    <div class="mw8 center">
+      <div class="flex-ns justify-between items-center">
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3">
+          {{ .Title }}
+        </h1>
+      </div>
+    </div>
+  </header>
+
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
+
+    {{ $pages := .Pages }}
+    {{ $full_posts_count := 5 }}
+
+    <!-- Die ersten 5 Einträge ausführlich -->
+    <section class="mw8 center">
+      {{ range first $full_posts_count $pages }}
+        <div class="relative w-100 mb4 bg-white bb b--black-10">
+          {{ .Render "summary-with-image" }}
+        </div>
+      {{ end }}
+    </section>
+
+    <!-- Alle weiteren Einträge als Link-Liste -->
+    {{ if gt (len $pages) $full_posts_count }}
+      <section class="mw8 center mt5">
+        <h2 class="f3 mb4">Weitere Beiträge</h2>
+        <ul class="list pl0">
+          {{ range after $full_posts_count $pages }}
+            <li class="mb2">
+              <span class="f6 gray mr3">{{ .Date.Format "02.01.2006" }}</span>
+              <a href="{{ .RelPermalink }}" class="link black dim f4 fw1">
+                {{ .Title }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+  </article>
+{{ end }}
