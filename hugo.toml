@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'de-de'
-title = 'Vereins-Website'
+title = 'Förderverein der Nordschule Neureut e.V.'
 theme = 'ananke'
 
 [menus]
