@@ -47,6 +47,6 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 Die verwendeten Bilder stammen von [Lorem Flickr](https://loremflickr.com) und [Unsplash](https://unsplash.com).
 *   Startseite: [Komal Gahir](https://unsplash.com/photos/suLtha-a2z0) (Unsplash)
-*   Über uns: Teamwork/Hands (Lorem Flickr)
-*   Kontakt: Writing/Desk (Lorem Flickr)
+*   Über uns: [Philip Strong](https://unsplash.com/photos/iOBTE2xsYko) (Unsplash)
+*   Kontakt: [Firmbee.com](https://unsplash.com/photos/SpVHcbuKi6E) (Unsplash)
 *   Aktuelles: [Mathilde Langevin](https://unsplash.com/photos/xiqCrk6LvTg) (Unsplash)
