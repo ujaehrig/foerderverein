@@ -7,19 +7,19 @@ featured_image: "/images/contact.jpg"
 
 ## Adresse & Kontakt
 
-**Förderverein der Nordschule Neureut e.V.**
-Friedhofstr. 1
+**Förderverein der Nordschule Neureut e.V.**  
+Friedhofstr. 1  
 76149 Karlsruhe
 
-*   **Telefon:** +49 721 709695
-*   **Fax:** +49 721 782584
-*   **E-Mail:** service@die-foerderer.net
+**Telefon:** +49 721 709695  
+**Fax:** +49 721 782584  
+**E-Mail:** service@die-foerderer.net
 
 ### Bankverbindung
 
-*   **Bank:** Volksbank Karlsruhe/Neureut
-*   **IBAN:** DE94 6619 0000 0000 9430 02
-*   **BIC:** GENODE61KA1
+**Bank:** Volksbank Karlsruhe/Neureut  
+**IBAN:** DE94 6619 0000 0000 9430 02  
+**BIC:** GENODE61KA1
 
 ## Kontaktformular
 
