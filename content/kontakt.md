@@ -3,8 +3,14 @@ title: "Kontakt"
 date: 2023-10-27T12:00:00+01:00
 draft: false
 featured_image: "/images/contact.jpg"
-type: "kontakt"
 ---
+
+<script type="text/javascript">
+!function(){
+    var appUrl = "https://formbricks.jaehrig.de";
+    var environmentId = "cmk41sudv0007nq0142v6utqp";
+var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=appUrl+"/js/formbricks.umd.cjs";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e),setTimeout(function(){window.formbricks.setup({environmentId: environmentId, appUrl: appUrl})},500)}();
+</script>
 
 ## Adresse & Kontakt
 
