@@ -9,15 +9,5 @@
 {{ end }}
 
 {{ define "main" }}
-  <article>
-    <header>
-      <h1>{{ .Title }}</h1>
-      {{ if .Params.featured_image }}
-        <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
-      {{ end }}
-    </header>
-    <div class="content">
-      {{ .Content }}
-    </div>
-  </article>
+  {{ .Content }}
 {{ end }}
