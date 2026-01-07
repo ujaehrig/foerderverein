@@ -25,7 +25,16 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<form action="https://formspree.io/f/ihre-form-id" method="POST" class="pa4 black-80">
+<!-- START Formbricks Surveys -->
+<script type="text/javascript">
+!function(){
+    var appUrl = "https://formbricks.jaehrig.de"; // use PUBLIC_URL if you are using multi-domain setup, otherwise use WEBAPP_URL
+    var environmentId = "cmk41sudv0007nq0142v6utqp";
+var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=appUrl+"/js/formbricks.umd.cjs";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e),setTimeout(function(){window.formbricks.setup({environmentId: environmentId, appUrl: appUrl})},500)}();
+</script>
+<!-- END Formbricks Surveys -->
+
+<form action="https://formbricks.jaehrig.de/s/cmk41wf12000enq01d1ixuaf7" method="POST" class="pa4 black-80">
   <div class="measure">
     <label for="name" class="f6 b db mb2">Name</label>
     <input id="name" name="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
