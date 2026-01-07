@@ -32,22 +32,6 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<form action="https://formbricks.jaehrig.de/s/cmk41wf12000enq01d1ixuaf7" method="POST" class="pa4 black-80">
-  <div class="measure">
-    <label for="name" class="f6 b db mb2">Name</label>
-    <input id="name" name="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
-  </div>
-  <div class="measure">
-    <label for="email" class="f6 b db mb2">E-Mail <span class="normal black-60">(erforderlich)</span></label>
-    <input id="email" name="email" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="email" aria-describedby="email-desc">
-  </div>
-  <div class="measure">
-    <label for="message" class="f6 b db mb2">Nachricht</label>
-    <textarea id="message" name="message" class="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="message-desc"></textarea>
-  </div>
-  <div class="measure">
-    <button type="submit" class="f6 link dim ph3 pv2 mb2 dib white bg-black">Senden</button>
-  </div>
-</form>
+<iframe src="https://formbricks.jaehrig.de/s/cmk41wf12000enq01d1ixuaf7" width="100%" height="600" frameborder="0"></iframe>
 
 *Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.*
