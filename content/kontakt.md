@@ -32,7 +32,7 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<form method="post" action="https://mailform.yourserver.com/your-target-file-name">
+<form method="post" action="https://formbricks.jaehrig.de/foerderverein">
     <input type="email" name="from" placeholder="Sender's email address"/>
     <input type="text" name="firstName" placeholder="First name" />
     <input type="text" name="lastName" placeholder="Last name" />
