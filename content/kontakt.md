@@ -3,11 +3,12 @@ title: "Kontakt"
 date: 2023-10-27T12:00:00+01:00
 draft: false
 featured_image: "/images/contact.jpg"
+description: "Kontaktieren Sie den Förderverein der Nordschule Neureut e.V. - Adresse, Telefon, E-Mail und Kontaktformular."
 ---
 
 <script type="text/javascript">
   function onSubmit(token) {
-    // document.getElementById('my-form').submit();
+    document.getElementById('contact-form').submit();
   }
 
 function validate(event) {
@@ -16,7 +17,7 @@ function validate(event) {
 }
 
 function onLoad() {
-  var element = document.getElementById('submit');
+  var element = document.getElementById('submit-btn');
   element.onclick = validate;
 }
 </script>
@@ -42,7 +43,7 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<form method="post" action="https://formbricks.jaehrig.de/foerderverein">
+<form id="contact-form" method="post" action="https://formbricks.jaehrig.de/foerderverein">
     <input type="email" name="from" placeholder="Sender's email address"/>
     <input type="text" name="firstName" placeholder="First name" />
     <input type="text" name="lastName" placeholder="Last name" />
@@ -57,7 +58,7 @@ Haben Sie Fragen? Schreiben Sie uns!
       data-callback="onSubmit"
       data-size="invisible"
     ></div>    
-    <button id="submit">Abschicken</button>    
+    <button id="submit-btn">Abschicken</button>    
 </form>
 
 *Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. 
