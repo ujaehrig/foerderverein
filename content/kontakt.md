@@ -8,7 +8,22 @@ description: "Kontaktieren Sie den Förderverein der Nordschule Neureut e.V. - A
 
 <script type="text/javascript">
   function onSubmit(token) {
-    document.getElementById('contact-form').submit();
+    const form = document.getElementById('contact-form');
+    const formData = new FormData(form);
+    
+    fetch(form.action, {
+      method: 'POST',
+      body: formData
+    }).then(response => {
+      if (response.ok) {
+        alert('Nachricht erfolgreich gesendet!');
+        form.reset();
+      } else {
+        alert('Fehler beim Senden der Nachricht.');
+      }
+    }).catch(() => {
+      alert('Fehler beim Senden der Nachricht.');
+    });
   }
 
 function validate(event) {
@@ -43,14 +58,13 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<form id="contact-form" method="post" action="https://formbricks.jaehrig.de/foerderverein">
+<form id="contact-form" method="post" action="https://form.jaehrig.de/foerderverein">
     <input type="email" name="from" placeholder="Sender's email address"/>
     <input type="text" name="firstName" placeholder="First name" />
     <input type="text" name="lastName" placeholder="Last name" />
     <input type="hidden" name="subjectPrefix" value="[App-Question] " />
     <input type="text" name="subject" placeholder="Subject" />
     <textarea name="body" placeholder="Your message"></textarea>
-    Name: (required) <input id="field" name="field" />
     <div
       id="hcaptcha"
       class="h-captcha"
