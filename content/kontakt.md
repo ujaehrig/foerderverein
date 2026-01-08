@@ -6,11 +6,21 @@ featured_image: "/images/contact.jpg"
 ---
 
 <script type="text/javascript">
-!function(){
-    var appUrl = "https://formbricks.jaehrig.de";
-    var environmentId = "cmk41sudv0007nq0142v6utqp";
-var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=appUrl+"/js/formbricks.umd.cjs";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e),setTimeout(function(){window.formbricks.setup({environmentId: environmentId, appUrl: appUrl})},500)}();
+  function onSubmit(token) {
+    // document.getElementById('my-form').submit();
+  }
+
+function validate(event) {
+  event.preventDefault();
+  hcaptcha.execute();
+}
+
+function onLoad() {
+  var element = document.getElementById('submit');
+  element.onclick = validate;
+}
 </script>
+<script src="https://js.hcaptcha.com/1/api.js?onload=onLoad" async defer></script>
 
 ## Adresse & Kontakt
 
@@ -38,9 +48,22 @@ Haben Sie Fragen? Schreiben Sie uns!
     <input type="text" name="lastName" placeholder="Last name" />
     <input type="hidden" name="subjectPrefix" value="[App-Question] " />
     <input type="text" name="subject" placeholder="Subject" />
-    <input type="hidden" name="g-recaptcha" value="fffc11b2-beac-4058-87b6-fca822ae4516" />
     <textarea name="body" placeholder="Your message"></textarea>
-    <input type="submit" value="Abschicken">
+    Name: (required) <input id="field" name="field" />
+    <div
+      id="hcaptcha"
+      class="h-captcha"
+      data-sitekey="fffc11b2-beac-4058-87b6-fca822ae4516"
+      data-callback="onSubmit"
+      data-size="invisible"
+    ></div>    
+    <button id="submit">Abschicken</button>    
 </form>
 
-*Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.*
+*Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. 
+
+Das Formular nutzt hCaptcha und die hCaptcha
+<a href="https://www.hcaptcha.com/privacy">Privacy Policy</a> und
+<a href="https://www.hcaptcha.com/terms">Terms of Service</a>.
+
+Weitere Informationen finden Sie in unserer Datenschutzerklärung.*
