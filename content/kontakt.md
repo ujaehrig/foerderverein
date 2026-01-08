@@ -40,6 +40,7 @@ Haben Sie Fragen? Schreiben Sie uns!
     <input type="text" name="subject" placeholder="Subject" />
     <div class="g-recaptcha" data-sitekey="fffc11b2-beac-4058-87b6-fca822ae4516"></div>
     <textarea name="body" placeholder="Your message"></textarea>
+    <input type="submit" value="Abschicken">
 </form>
 
 *Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.*
