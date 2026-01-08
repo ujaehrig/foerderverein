@@ -38,7 +38,7 @@ Haben Sie Fragen? Schreiben Sie uns!
     <input type="text" name="lastName" placeholder="Last name" />
     <input type="hidden" name="subjectPrefix" value="[App-Question] " />
     <input type="text" name="subject" placeholder="Subject" />
-    <div class="g-recaptcha" data-sitekey="fffc11b2-beac-4058-87b6-fca822ae4516"></div>
+    <input type="hidden" name="g-recaptcha" value="fffc11b2-beac-4058-87b6-fca822ae4516" />
     <textarea name="body" placeholder="Your message"></textarea>
     <input type="submit" value="Abschicken">
 </form>
