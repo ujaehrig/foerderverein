@@ -32,6 +32,14 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<iframe src="https://formbricks.jaehrig.de/s/cmk41wf12000enq01d1ixuaf7" width="100%" height="600" frameborder="0"></iframe>
+<form method="post" action="https://mailform.yourserver.com/your-target-file-name">
+    <input type="email" name="from" placeholder="Sender's email address"/>
+    <input type="text" name="firstName" placeholder="First name" />
+    <input type="text" name="lastName" placeholder="Last name" />
+    <input type="hidden" name="subjectPrefix" value="[App-Question] " />
+    <input type="text" name="subject" placeholder="Subject" />
+    <div class="g-recaptcha" data-sitekey="fffc11b2-beac-4058-87b6-fca822ae4516"></div>
+    <textarea name="body" placeholder="Your message"></textarea>
+</form>
 
 *Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.*
