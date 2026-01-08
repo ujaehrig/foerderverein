@@ -60,11 +60,11 @@ Haben Sie Fragen? Schreiben Sie uns!
 
 <form id="contact-form" method="post" action="https://form.jaehrig.de/foerderverein">
     <input type="email" name="from" placeholder="Sender's email address"/>
-    <input type="text" name="firstName" placeholder="First name" />
-    <input type="text" name="lastName" placeholder="Last name" />
-    <input type="hidden" name="subjectPrefix" value="[App-Question] " />
-    <input type="text" name="subject" placeholder="Subject" />
-    <textarea name="body" placeholder="Your message"></textarea>
+    <input type="text" name="firstName" placeholder="Vorname" />
+    <input type="text" name="lastName" placeholder="Nachname" />
+    <input type="hidden" name="subjectPrefix" value="[Förderverein] " />
+    <input type="text" name="subject" placeholder="Betreff" />
+    <textarea name="body" placeholder="Was wollen Sie uns mitteilen?"></textarea>
     <div
       id="hcaptcha"
       class="h-captcha"
@@ -81,4 +81,4 @@ Das Formular nutzt hCaptcha und die hCaptcha
 <a href="https://www.hcaptcha.com/privacy">Privacy Policy</a> und
 <a href="https://www.hcaptcha.com/terms">Terms of Service</a>.
 
-Weitere Informationen finden Sie in unserer Datenschutzerklärung.*
+Weitere Informationen finden Sie in unserer [D]atenschutzerklärung](/datenschutz/).*
