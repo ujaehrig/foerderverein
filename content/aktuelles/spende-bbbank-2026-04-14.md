@@ -19,3 +19,4 @@ Verantwortung übernehmen und Projekte unterstützen, die die persönliche Entwi
 
 Wir freuen uns nun auf die Umsetzung der nächsten Projektschritte und danken allen Beteiligten für ihr Engagement!
 
+![BBBank Logo](images/BBBank_Logo_Gewinnsparverein_CMYK.avif)
