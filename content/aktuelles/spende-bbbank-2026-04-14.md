@@ -1,6 +1,6 @@
 ---
 title: "Großzügige Spende der BBBank"
-date: 2026-04-17T10:00:00Z
+date: 2026-04-14T10:00:00Z
 draft: false
 ---
 
