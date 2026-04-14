@@ -7,11 +7,13 @@ featured_image: "/images/nordschule-gang.jpg"
 
 ## Was tun wir?
 
-Schulfördervereine sind aus dem schulischen Alltag nicht mehr wegzudenken. Sie bieten den rechtlichen und organisatorischen Rahmen für eine Unterstützung der Schule, wenn die Mittel des Schulträgers (Gemeinde/Stadt) nicht ausreichen oder für bestimmte Vorhaben nicht bestimmt sind. Der Förderverein ermöglicht vieles, was sonst nicht machbar wäre, und sorgt für eine lebendige Schulgemeinschaft.
+Schulfördervereine sind aus dem schulischen Alltag nicht mehr wegzudenken. Sie ergänzen und bereichern das Leben an der Schule durch soziale, musische und sonstige Angebote. Sie unterstützen das Gefühl einer guten Gemeinschaft und unterstützen die ein oder andere herausragende schulische Aktivität, die es sonst nicht gäbe. 
 
-Der Förderverein der Nordschule ist als gemeinnützig anerkannt. Spenden können steuerlich abgesetzt werden. Als eingetragener Verein können wir auch öffentliche Zuschüsse beantragen und Sponsoren für größere Projekte gewinnen.
+Aber sie bieten schlicht auch den rechtlichen und organisatorischen Rahmen für eine Unterstützung der Schule, wenn die Mittel des Schulträgers (Gemeinde/Stadt) nicht ausreichen oder für bestimmte Vorhaben nicht bestimmt sind. Der Förderverein ermöglicht somit also vieles, was ansonsten nicht machbar wäre.
 
-Ob aktive Mitarbeit oder finanzielle Unterstützung durch Mitgliedschaft oder Spenden – jeder Beitrag kommt direkt den Kindern der Nordschule zugute.
+Der Förderverein der Nordschule ist vom Finanzamt als gemeinnützig anerkannt. Spenden können steuerlich abgesetzt werden. Als eingetragener Verein können wir auch öffentliche Zuschüsse beantragen und Sponsoren für größere Projekte gewinnen.
+
+Ob aktive Mitarbeit oder finanzielle Unterstützung durch Mitgliedschaft oder Spenden – jeder Ihrer Beiträge kommt direkt den Kindern der Nordschule zugute. Dafür danken wir unseren Unterstützenden von Herzen.
 
 ## Der Vorstand
 
@@ -19,5 +21,3 @@ Ob aktive Mitarbeit oder finanzielle Unterstützung durch Mitgliedschaft oder Sp
 *   **2. Vorsitzender:** Matthias Kautt
 *   **Kassenwart:** Ulf Jährig
 *   **Beisitzer:** Birgit Hannig-Waag
-
-Gerne stehen wir Ihnen für Fragen und Anregungen zur Verfügung.
