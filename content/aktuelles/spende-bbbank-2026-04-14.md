@@ -1,6 +1,6 @@
 ---
-title: "Mitgliederversammlung 2021"
-date: 2021-11-01T10:00:00+01:00
+title: "Großzügige Spende der BBBank"
+date: 2026-04-17T10:00:00Z
 draft: false
 ---
 
