@@ -2,6 +2,9 @@
 title: "Großzügige Spende der BBBank"
 date: 2026-04-14T10:00:00Z
 draft: false
+summary: "Sicherheit schenken: Wir freuen uns über eine großzügige Förderung der BBBank eG für unser Präventionsprojekt gegen sexualisierte Gewalt an der Nordschule! Gemeinsam machen wir unsere Kinder stark. Ein riesiges Dankeschön für diese wichtige Unterstützung! 🛡️✨ #NordschuleNeureut #Kinderschutz #BBBank #StarkeKinder"
+tags: ["Spende", "BBBank", ]
+categories: ["News"]
 ---
 
 # Starke Unterstützung für den Kinderschutz: BBBank fördert unser Präventionsprojekt
