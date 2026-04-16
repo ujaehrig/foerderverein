@@ -6,8 +6,8 @@ draft: false
 
 ## Angaben gemäß § 5 TMG
 
-**Förderverein der Nordschule Neureut e.V.**
-Friedhofstr. 1
+**Förderverein der Nordschule Neureut e.V.**  
+Friedhofstr. 1  
 76149 Karlsruhe
 
 ### Vertreten durch:
@@ -20,8 +20,8 @@ Friedhofstr. 1
 *   E-Mail: service@die-foerderer.net
 
 ### Registereintrag:
-Eintragung im Vereinsregister.
-Registergericht: Amtsgericht Mannheim
+Eintragung im Vereinsregister.  
+Registergericht: Amtsgericht Mannheim  
 Registernummer: VR 102110
 
 ### Verantwortlich für den Inhalt:
@@ -45,7 +45,7 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 ### Bildnachweise
 
-Die verwendeten Bilder stammen von der (Nordschule)[https://nordschule-neureut.de] 
+Die verwendeten Bilder stammen von der [Nordschule](https://nordschule-neureut.de) 
 und [Unsplash](https://unsplash.com).
 *   Startseite: (Nordschule)
 *   Über uns: (Nordschule)

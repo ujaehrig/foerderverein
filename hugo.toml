@@ -1,4 +1,4 @@
-baseURL = 'https://beta.die-foerderer.net/'
+baseURL = 'https://www.die-foerderer.net/'
 languageCode = 'de-de'
 title = 'Förderverein der Nordschule Neureut e.V.'
 theme = 'ananke'
