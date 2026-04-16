@@ -6,37 +6,25 @@ featured_image: "/images/contact.jpg"
 description: "Kontaktieren Sie den Förderverein der Nordschule Neureut e.V. - Adresse, Telefon, E-Mail und Kontaktformular."
 ---
 
-<script type="text/javascript">
-  function onSubmit(token) {
-    const form = document.getElementById('contact-form');
-    const formData = new FormData(form);
-    
-    fetch(form.action, {
-      method: 'POST',
-      body: formData
-    }).then(response => {
-      if (response.ok) {
-        alert('Nachricht erfolgreich gesendet!');
-        form.reset();
-      } else {
-        alert('Fehler beim Senden der Nachricht.');
-      }
-    }).catch(() => {
-      alert('Fehler beim Senden der Nachricht.');
-    });
-  }
-
-function validate(event) {
-  event.preventDefault();
-  hcaptcha.execute();
-}
-
-function onLoad() {
-  var element = document.getElementById('submit-btn');
-  element.onclick = validate;
-}
-</script>
-<script src="https://js.hcaptcha.com/1/api.js?onload=onLoad" async defer></script>
+<style>
+.frmtx {
+  --font-size: 100%;
+  --font-family: inherit;
+  --font-color: inherit;
+  --background-color: #FFF;
+  --border-color: #AAA;
+  --border-width: 1px;
+  --border-radius: 5px;
+margin: 1rem;min-width: 240px}
+.frmtx * {color: var(--font-color);font-family: var(--font-family);font-size: var(--font-size);margin: 0;padding: 0;appearance: auto;outline: none;box-sizing: border-box}
+.frmtx label {padding: 0;margin: 1em 0 .3em;display: block;line-height: 1.3}
+.frmtx label:first-child {margin-top: 0}
+.frmtx input, .frmtx textarea, .frmtx button {border: var(--border-width) solid var(--border-color);border-radius: var(--border-radius);background-color: var(--background-color)}
+.frmtx input, .frmtx textarea {width: 100%;resize: none;padding: .5em;line-height: 1.3}
+.frmtx input[name="_gotcha"] {display:none}
+.frmtx input[type="checkbox"] {display: inline;width: 1.1em;height: 1.1em;appearance: auto;margin-right: .2em}
+.frmtx button {display: block;padding: .5em 1.5em;margin: 1.5em 0 0;line-height: 1.5;font-weight: bold;cursor: pointer}
+</style>
 
 ## Adresse & Kontakt
 
@@ -58,27 +46,15 @@ Friedhofstr. 1
 
 Haben Sie Fragen? Schreiben Sie uns!
 
-<form id="contact-form" method="post" action="https://form.jaehrig.de/foerderverein">
-    <input type="email" name="from" placeholder="Sender's email address"/>
-    <input type="text" name="firstName" placeholder="Vorname" />
-    <input type="text" name="lastName" placeholder="Nachname" />
-    <input type="hidden" name="subjectPrefix" value="[Förderverein] " />
-    <input type="text" name="subject" placeholder="Betreff" />
-    <textarea name="body" placeholder="Was wollen Sie uns mitteilen?"></textarea>
-    <div
-      id="hcaptcha"
-      class="h-captcha"
-      data-sitekey="fffc11b2-beac-4058-87b6-fca822ae4516"
-      data-callback="onSubmit"
-      data-size="invisible"
-    ></div>    
-    <button id="submit-btn">Abschicken</button>    
+
+<form action="https://form.taxi/s/046cj7p1" class="frmtx" method="POST" accept-charset="utf-8">
+  <label for="name">Name</label>
+  <input type="text" name="Name" id="name" required>
+  <label for="mail">E-Mail-Adresse</label>
+  <input type="email" name="E-Mail" id="mail" required>
+  <label for="msg">Ihre Nachricht</label>
+  <textarea rows="5" name="Nachricht" id="msg" required></textarea>
+  <label><input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required> Ich bin mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung einverstanden.</label>
+  <input type="text" name="_gotcha" value="">
+  <button type="submit">Absenden</button>
 </form>
-
-*Hinweis: Mit der Nutzung dieses Formulars erklären Sie sich mit der Speicherung und Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage einverstanden. 
-
-Das Formular nutzt hCaptcha und die hCaptcha
-<a href="https://www.hcaptcha.com/privacy">Privacy Policy</a> und
-<a href="https://www.hcaptcha.com/terms">Terms of Service</a>.
-
-Weitere Informationen finden Sie in unserer [D]atenschutzerklärung](/datenschutz/).*
