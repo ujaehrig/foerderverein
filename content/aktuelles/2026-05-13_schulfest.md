@@ -8,8 +8,6 @@ description: "Besuchen Sie die Cocktailbar des Fördervereins auf dem Schulfest 
 summary: "Die Nordschule Neureut lädt am 12. Juni zum großen Schulfest ein! Wir vom Förderverein sind natürlich mit dabei und versorgen euch mit frischen, alkoholfreien Cocktails. Wer vor Ort Mitglied wird, bekommt seinen Drink sogar gratis!"
 ---
 
-## Mixen für den guten Zweck: Wir sehen uns beim Schulfest!
-
 Am **Freitag, den 12. Juni**, ist es endlich wieder so weit: Die Nordschule Neureut feiert ihr großes Schulfest! Von **14:30 bis 17:00 Uhr** verwandelt sich das Schulgelände in eine bunte Festmeile – und wir vom **Förderverein** sind natürlich mittendrin.
 
 ### Erfrischung gefällig? Besucht unsere Cocktailbar!
