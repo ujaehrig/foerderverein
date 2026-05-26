@@ -34,7 +34,11 @@ Friedhofstr. 1
 
 **Telefon:** +49 721 709695  
 **Fax:** +49 721 782584  
-**E-Mail:** service@die-foerderer.net
+**E-Mail:** <span id="mail"></span>
+<script>
+  const u = 'service', d = 'die-foerderer.net';
+  document.getElementById('mail').innerHTML = `<a href="mailto:${u}@${d}">${u}@${d}</a>`;
+</script>
 
 ### Bankverbindung
 
