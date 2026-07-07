@@ -2,10 +2,10 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the ui-improvements branch
   push:
     branches:
-      - main
+      - ui-improvements
 
 # Runs automatically at specific times
   schedule:
