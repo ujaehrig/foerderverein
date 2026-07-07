@@ -4,12 +4,20 @@ on:
   push:
     branches:
       - main  # Passen Sie dies an, falls Ihr Hauptbranch 'master' heißt
-  workflow_dispatch: # Erlaubt es, das Deployment bei Bedarf manuell in GitHub zu starten
+
+  # Erlaubt es, das Deployment bei Bedarf manuell in GitHub zu starten
+  workflow_dispatch:
+
+  # Runs automatically at specific times
+  schedule:
+    # Syntax: 'minute hour day month day-of-week'
+    # Runs at the start of every second hour from 6 AM to 8 PM UTC
+    - cron: '0 6-20/2 * * *'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: 📥 Repository auschecken
         uses: actions/checkout@v4
@@ -36,8 +44,8 @@ jobs:
           local-dir: ./public/
           # WICHTIG: Pfad bei Hetzner. Für die Hauptdomain meist /public_html/
           # Für Zusatzdomains oft ein Unterordner wie /public_html/die-foerderer.net/
-          server-dir: /public_html/ 
-          
+          server-dir: /public_html/
+
           # Optional, aber empfohlen für sichere Deployments:
           # Löscht Dateien auf dem Server, die lokal nicht mehr im public-Ordner existieren.
           state-name: .ftp-deploy-sync-state.json
