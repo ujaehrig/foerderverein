@@ -2,9 +2,9 @@
 title: "Neues aus dem Maschinenraum: Ein digitaler Tapetenwechsel"
 date: 2026-07-07T10:00:00+02:00
 draft: false
-author: "Förderverein"
 categories: ["Maschinenraum"]
 tags: ["Hosting", "Website", "Technik", "Updates"]
+summary: "Ein kurzes Update aus der Technik: Der Förderverein ist mit seiner Website und den E-Mails zu einem neuen, günstigeren Hosting-Anbieter umgezogen. Das spart dauerhaft IT-Kosten, sodass mehr Geld direkt in die Schulprojekte fließen kann."
 ---
 
 Willkommen zu einem neuen Update aus dem „Maschinenraum“ des Fördervereins der Nordschule Neureut e.V.! Meistens arbeiten wir im Hintergrund, damit unsere Webseite und die E-Mail-Kommunikation reibungslos funktionieren. Heute wollen wir aber kurz die Tür aufmachen und von einem aktuellen Technik-Projekt berichten: Wir ziehen unsere digitale Infrastruktur um. 
