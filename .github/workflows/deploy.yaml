@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: 📥 Repository auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: true  # Wichtig, falls Ihr Hugo-Theme als Git-Submodule eingebunden ist
           fetch-depth: 0    # Stellt sicher, dass Git-Timestamps für Hugos .GitInfo verfügbar sind
@@ -35,7 +35,7 @@ jobs:
         run: hugo --minify
 
       - name: 🚀 Upload zu Hetzner (FTPS)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
