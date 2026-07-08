@@ -2,18 +2,12 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Trigger on push to any branch EXCEPT main
   push:
-    branches:
+    branches-ignore:
       - main
 
-# Runs automatically at specific times
-  schedule:
-    # Syntax: 'minute hour day month day-of-week'
-    # Runs at the start of every second hour from 6 AM to 8 PM UTC
-    - cron: '0 6-20/2 * * *'
-
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
