@@ -1,0 +1,10 @@
+/* ----------------------------------------------------
+   Ananke Layout Fix: Volle Breite für Single-Pages
+------------------------------------------------------- */
+.mw7 {
+  max-width: 64rem !important;
+}
+.w-two-thirds-l {
+  width: 100% !important;
+  padding-right: 0 !important;
+}
