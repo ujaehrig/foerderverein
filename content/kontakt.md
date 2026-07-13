@@ -3,7 +3,6 @@ title: "Kontakt"
 date: 2023-10-27T12:00:00+01:00
 draft: false
 featured_image: "/images/contact.jpg"
-description: "Kontaktieren Sie den Förderverein der Nordschule Neureut e.V. - Adresse, Telefon, E-Mail und Kontaktformular."
 ---
 
 <style>
