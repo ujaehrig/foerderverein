@@ -49,7 +49,7 @@ Haben Sie Fragen zu unserer Arbeit oder Ideen für neue Projekte? Zögern Sie ni
 </div>
 <div class="w-100 w-50-l bg-near-white pa4 br3 ba b--black-10">
 <h3 class="mt0 mb3 dark-blue f4">Kontaktformular</h3>
-<form action="https://form-taxi/s/046cj7p1" class="frmtx" method="POST" accept-charset="utf-8">
+<form action="https://form.taxi/s/046cj7p1" class="frmtx" method="POST" accept-charset="utf-8">
 <label for="name">Name</label>
 <input type="text" name="Name" id="name" required>
 <label for="mail_input">E-Mail-Adresse</label>
