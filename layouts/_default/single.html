@@ -25,17 +25,22 @@
     {{ end }}
 
     <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          {{/*
-          CurrentSection allows us to use the section title instead of inferring from the folder.
-          https://gohugo.io/variables/page/#section-variables-and-methods
-          */}}
-        {{ .CurrentSection.Title }}
-      </aside>
+      {{ if not .CurrentSection.IsHome }}
+        <aside class="instapaper_ignoref b helvetica tracked ttu">
+            {{/*
+            CurrentSection allows us to use the section title instead of inferring from the folder.
+            https://gohugo.io/variables/page/#section-variables-and-methods
+            */}}
+          {{ .CurrentSection.Title }}
+        </aside>
+      {{ end }}
       {{- partialCached "social/share.html" . . -}}
-      <h1 class="f1 athelas mt3 mb1">
-        {{- .Title -}}
-      </h1>
+      {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+      {{ if or (not $featured_image) .Params.omit_header_text }}
+        <h1 class="f1 athelas mt3 mb1">
+          {{- .Title -}}
+        </h1>
+      {{ end }}
       {{ with .Params.author | default .Site.Params.author }}
       <p class="tracked">
         {{ $.Render "by" }} <strong>
@@ -59,7 +64,7 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.Direction "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
