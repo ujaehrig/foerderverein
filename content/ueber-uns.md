@@ -35,7 +35,7 @@ Unser aktueller Vorstand setzt sich wie folgt zusammen:
 
 <div class="w-100 w-50-l pa3">
 <div class="bg-near-white br3 pa3 h-100 tc ba b--black-10">
-<h3 class="mt2 mb1 dark-blue">Matthias Kautt</h3>
+<h3 class="mt2 mb1 dark-blue">Dr. Matthias Kautt</h3>
 <p class="f5 gray mt0 mb2">2. Vorsitzender</p>
 <p class="f6 mt0 mb0"><span id="mail-matthias"></span></p>
 </div>

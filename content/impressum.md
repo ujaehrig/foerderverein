@@ -12,7 +12,7 @@ Friedhofstr. 1
 
 **Vertreten durch:**
 *   1. Vorsitzende: Elena Löhlein
-*   2. Vorsitzender: Matthias Kautt
+*   2. Vorsitzender: Dr. Matthias Kautt
 
 **Kontakt:**
 *   Telefon: +49 721 709695
