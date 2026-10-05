@@ -11,7 +11,7 @@
     {{ if .ExpiryDate }}
     <script>
       (function() {
-        var expiryDate = new Date("{{ .ExpiryDate.Format "2006-01-02T15:04:05-07:00" }}");
+        var expiryDate = new Date('{{ .ExpiryDate.Format "2006-01-02T15:04:05-07:00" }}');
         var now = new Date();
         if (now > expiryDate) {
           // Option 1: Redirect to 404 page
