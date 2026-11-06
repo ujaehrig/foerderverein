@@ -14,12 +14,14 @@ Und so nähert sich mit dem Herbst nun auch langsam die Vorweihnachtszeit, die w
 
 Wir sehen folgende Themen vor und freuen uns über weitere Punkte, die Sie uns als Mitglied über [Kontakt](https://www.die-foerderer.net/kontakt) zusenden können:
 
-**TOP 1** Begrüßung und Feststellung der Beschlussfähigkeit
-**TOP 2** Jahresbericht des Vorstands
-**TOP 3** Bericht des Kassenwarts
-**TOP 4** Entlastung des Vorstands
-**TOP 5** Bericht der Schulleitung der Nordschule
-**TOP 6** Verschiedenes
+<ul style="list-style: none;">
+  <li><strong>TOP 1</strong> Begrüßung und Feststellung der Beschlussfähigkeit</li>
+  <li><strong>TOP 2</strong> Jahresbericht des Vorstands</li>
+  <li><strong>TOP 3</strong> Bericht des Kassenwarts</li>
+  <li><strong>TOP 4</strong> Entlastung des Vorstands</li>
+  <li><strong>TOP 5</strong> Bericht der Schulleitung der Nordschule</li>
+  <li><strong>TOP 6</strong> Verschiedenes</li>
+</ul>
 
 Die Mitgliederversammlung findet am **18. November 2026 ab 18.30 Uhr** in der Nordschule in Karlsruhe-Neureut (Friedhofstraße 1) statt. Damit wir besser planen können, freuen wir uns, wenn Sie sich vorab [hier anmelden](https://www.die-foerderer.net/rsvp).
 
