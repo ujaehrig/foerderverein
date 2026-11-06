@@ -21,7 +21,7 @@ Wir sehen folgende Themen vor und freuen uns über weitere Punkte, die Sie uns a
 **TOP 5** Bericht der Schulleitung der Nordschule
 **TOP 6** Verschiedenes
 
-Die Mitgliederversammlung findet am **18. November 2026 ab 18.30 Uhr** in der Nordschule in Karlsruhe-Neureut (Friedhofstraße 1) statt.
+Die Mitgliederversammlung findet am **18. November 2026 ab 18.30 Uhr** in der Nordschule in Karlsruhe-Neureut (Friedhofstraße 1) statt. Damit wir besser planen können, freuen wir uns, wenn Sie sich vorab [hier anmelden](https://www.die-foerderer.net/rsvp).
 
 Wie immer laden wir Sie an dieser Stelle herzlich ein, sich zu melden, wenn Sie Interesse haben, an den Veranstaltungen des Fördervereins mitzuwirken oder gar den Vorstand zu verstärken.
 
